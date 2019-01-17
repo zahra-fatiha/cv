@@ -29,6 +29,7 @@ nav{background: #413f3f;}
     list-style: none;
     padding-left: 15px;
     padding-right: 5px;
+    margin-left: 30px;
 }
 .menu-section li a{
     text-decoration: none;
