@@ -1,0 +1,383 @@
+*{margin: 0px;padding: 0px;}
+
+
+
+body{
+    background: #80808024;
+}
+.container{
+    /* background: #8080800d; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000d1;
+    padding: 5px;
+}
+.heading h1{}
+.heading h1 i{}
+/********** menu section *********/
+nav{background: #413f3f;}
+.menu-section{
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.menu-section li{
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.menu-section li a{
+    text-decoration: none;
+    float: left;
+    padding-left: 50px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    color: white;
+    /* margin: auto; */
+    display: block;
+    /* border-bottom: 3px solid white; */
+}
+.menu-section li a:hover{
+    border-bottom: 1px solid white;
+}
+.name{
+    background: #787373;
+}
+.name h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: white;
+      margin: auto;
+}
+/********** menu section *********/
+
+/********** about me section *********/
+.about-me-section{
+    text-align: center;
+}
+.about-me{
+    background: white;
+    margin-top: 20px;
+    padding-bottom: 25px;
+        box-shadow: 2px 2px 12px #3b3737;
+}
+.about-me img{
+    width: 200px;
+    border-radius: 50%;
+    transform: translateY(-60px);
+}
+.about-me h4{font-size: 25px;
+    color: #000000bd;    margin-top: 0px;}
+.about-me p{
+    margin: 25px;
+    color: #000000b3;
+}
+.about-me .cv{background: #2196F3;
+    padding: 7px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    color: #fffffff0;}
+.about-me .contact{background: #2196F3;
+    padding: 7px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    color: #fffffff0;}
+/********** about me section *********/
+
+/********** services section *********/
+.services-section{
+    overflow: hidden;
+    padding: 70px 0px;
+}
+.service-menu{}
+
+.post{
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    /* background: white; */
+    /* margin-top: 10px; */
+}
+.post div{
+    background: white;
+    padding: 30px 2px;
+    box-shadow: 2px 2px 2px 2px #0000003b;
+}
+.post .black{}
+.post .black p{
+    color: lightgrey;
+}
+.post .black{
+    background: #000000c2;
+}
+.post .black span{
+    color: white;
+}
+.post .black i{
+    color: white;
+}
+
+.post span{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+.post span i{}
+.post p{
+    font-size: 15px;
+    padding: 15px;
+    color: #0000008f;
+}
+
+/********** portfolio section *********/
+.portfolio-section{overflow: hidden;/* padding-top: 25px; *//* padding-bottom: 25px; */padding: 70px 0px;}
+.portfolio-menu li{
+    list-style: none;
+    display: inline-block;
+    /* overflow: hidden; */
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.portfolio-menu li a{text-decoration: none;text-transform: capitalize;color: #000000b3;padding: 2px 36px;/* border-bottom: 3px solid black; */display: block;}
+.portfolio-menu li a:hover{
+    border-bottom: 3px solid #00000030;
+}
+.portfolio{
+    overflow: hidden;
+}
+.image{
+    width: 25%;
+    float: left;
+    /* background: white; */
+    box-sizing: border-box;
+    padding: 10px;
+    /* box-shadow: 1px 1px 5px #ada6a659; */
+    padding: 5px;
+}
+.image img{
+    width: %;
+    max-width: 100%;
+    height: 110px;
+    /* box-sizing: border-box; */
+    box-shadow: 0px 0px 2px #00000070;
+}
+.image2{}
+.image2 img{}
+.image2 span{}
+
+.portfolio-color{
+    text-align: center;
+    background: white;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #1f1e1e57;
+}
+.portfolio-color span{
+}
+/********** portfolio section *********/
+
+/********** Achievement section *********/
+.achievement-section{padding: 70px 0px;}
+.achievement-table{
+    overflow: hidden;
+}
+ .achievement{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+}
+.achievement div{/* padding: 20px 0px; */background: white;overflow: hidden;}
+.achievement-colour{}
+.achievement-colour span{
+    /* background: grey; */
+}
+.achievement-colour h3{
+    background: #5e5757;
+    padding: 10px 0px;
+    color: #fffffff0;
+    font-size: 15px;
+    font-weight: 300;
+}
+.achievement p{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.achievement i{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/********** Achievement section *********/
+
+/********** also worked section *********/
+.also-worked-section{
+    padding: 70px 0px;
+}
+.also{
+    padding: 40px 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.also a{
+    padding: 0px 15px;
+}
+.also a i{}
+/********** also worked section *********/
+
+/********** pricing section *********/
+.pricing-section{
+    padding: 70px 0px;
+    overflow: hidden;
+}
+.pricing-table{
+    overflow: hidden;
+    margin: 30px 0px;
+}
+.pricing-table .pricing{
+    width: 25%;
+    float: left;
+    /* padding: 50px; */
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    /* background: white; */
+}
+.pricing-table .pricing div{padding: 50px 20px;text-align: center;background: white;margin: 7px;box-shadow: 2px 2px 2px 3px #b0adad2e;}
+.pricing-table .pricing span{
+    font-weight: bold;
+}
+.pricing-table .pricing h3{font-size: 30px;margin: 10px;}
+.pricing-table .pricing p{
+    padding: 5px;
+    border-bottom: 1px solid #ddddca;
+}
+.pricing-table .pricing a{
+    font-size: 14px;
+    background: #2196F3;
+    color: #fffffffa;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/********** pricing section *********/
+
+/********** interest section *********/
+.interest-full{
+    background: white;
+    padding: 25px;
+    margin: 20px 0px;
+    box-shadow: 2px 2px 2px 2px #ada4a4;
+}
+.interest-section{}
+.interest-section p{}
+.interest{}
+.interest ul{margin-left: 280px;}
+.interest ul li{
+    list-style: none;
+    display: inline-block;
+}
+.interest ul li i{margin: 10px 0px;}
+.interest ul li i p{
+    /* text-align: center; */
+    padding: 15px 0px;
+    margin-right: 30px;
+    font-weight: 300;
+}
+
+/********** interest section *********/
+
+/********** contact section *********/
+.contact-section{
+    overflow: hidden;
+    padding: 70px 0px;
+}
+.contact-table{}
+.contact-table .left{
+    width: 30%;
+    float: left;
+}
+.contact-table .left ul{
+    background: #322d2d;
+    margin: 10px 0px;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    box-shadow: 2px 2px 2px 2px #00000024;
+}
+.contact-table .left ul li{
+    list-style: none;
+}
+.contact-table .left ul li p{
+    color: #ffffffe0;
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+}
+.contact-table .left ul li i{
+    color: white;
+    /* text-align: center; */
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.contact-form{
+    width: 60%;
+    float: right;
+    background: white;
+    padding: 80px 30px;
+    overflow: hidden;
+    margin: 10px 0px;
+    box-shadow: 2px 2px 2px 2px #0000001a;
+}
+.contact-form form{}
+.col-2{/* width: 100%; */}
+.col-2 input{
+    width: 100%;
+    padding: 20px 3px;
+    border: 0px;
+    border-bottom: 2px solid #ededed;
+    border-bottom:;
+    text-transform: capitalize;
+}
+textarea{
+    width: 100%;
+    padding: 20px 3px;
+    border: 0px;
+    border-bottom: 2px solid #ededed;
+    text-transform: capitalize;
+    border-bottom:;
+    }
+
+.send{
+    text-align: center;
+}
+.submit{
+    /* text-align: center; */
+    background: #2196F3;
+    padding: 7px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fffffff0;
+}
+
+
+
+
+
+
+
+
